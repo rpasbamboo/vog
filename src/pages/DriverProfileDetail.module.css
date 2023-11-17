@@ -1,0 +1,1626 @@
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(245, 245, 245, 0.9);
+}
+.driverProfile {
+  position: absolute;
+  top: 5.23rem;
+  left: 2.7rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.profileChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 9.36px;
+  background-color: var(--label-color-dark-primary);
+  box-shadow: 0 0 3.6px rgba(0, 0, 0, 0.15);
+  width: 46.78rem;
+  height: 28.95rem;
+}
+.fullName,
+.personalInfo {
+  position: absolute;
+  top: 0;
+  line-height: 0.95rem;
+}
+.personalInfo {
+  left: 0;
+  text-transform: uppercase;
+}
+.fullName {
+  left: 0.04rem;
+  font-weight: 500;
+}
+.charinduUdanthaEdirisuriya {
+  position: absolute;
+  top: 1.31rem;
+  left: 0;
+  line-height: 0.95rem;
+  font-weight: 600;
+  color: #3f3f3f;
+  text-align: left;
+}
+.fullNameParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 9.44rem;
+  height: 2.31rem;
+  text-align: center;
+}
+.cuEdirisuriya,
+.fullNameWith {
+  position: absolute;
+  left: 0;
+  line-height: 0.95rem;
+}
+.fullNameWith {
+  top: 0;
+  font-weight: 500;
+}
+.cuEdirisuriya {
+  top: 1.31rem;
+  font-weight: 600;
+  color: var(--color-darkslategray-200);
+}
+.fullNameWithInitialsParent {
+  position: absolute;
+  top: 3.24rem;
+  left: 0;
+  width: 6.81rem;
+  height: 2.31rem;
+}
+.email,
+.udantha15gmailcom {
+  position: absolute;
+  left: 0;
+  line-height: 0.95rem;
+}
+.udantha15gmailcom {
+  top: 1.31rem;
+  font-weight: 600;
+}
+.email {
+  top: 0;
+  font-weight: 500;
+  color: var(--color-slategray);
+}
+.parent,
+.udantha15gmailcomParent {
+  height: 2.31rem;
+  color: var(--color-darkslategray-200);
+}
+.udantha15gmailcomParent {
+  position: absolute;
+  top: 6.48rem;
+  left: 0;
+  width: 7.38rem;
+}
+.parent {
+  top: 9.73rem;
+  width: 4.81rem;
+}
+.ageCategory,
+.group,
+.parent {
+  position: absolute;
+  left: 0;
+}
+.group {
+  top: 12.97rem;
+  width: 4.06rem;
+  height: 2.31rem;
+  color: var(--color-darkslategray-200);
+}
+.ageCategory {
+  top: 0;
+  line-height: 0.95rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.ageCategoryParent,
+.groupParent {
+  position: absolute;
+  top: 16.21rem;
+  left: 0;
+  width: 4.5rem;
+  height: 2.31rem;
+}
+.groupParent {
+  top: 2.52rem;
+  width: 9.44rem;
+  height: 18.51rem;
+  color: var(--color-slategray);
+}
+.personalInfoParent,
+.profileInner {
+  position: absolute;
+  width: 9.44rem;
+  height: 21.04rem;
+}
+.personalInfoParent {
+  top: 0;
+  left: 0;
+}
+.profileInner {
+  top: 1.44rem;
+  left: 3.06rem;
+}
+.mainRoadAthidiya {
+  margin: 0;
+}
+.mainRoadAthidiyaContainer {
+  position: absolute;
+  top: 0.81rem;
+  left: 0;
+  line-height: 0.95rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.mainRoadAthidiyaDehiwalaParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 11.31rem;
+  height: 2.75rem;
+}
+.mainRoadAthidiyaDehiwalaGroup {
+  position: absolute;
+  top: 3.24rem;
+  left: 0;
+  width: 11.31rem;
+  height: 2.31rem;
+}
+.colombo,
+.kmParent {
+  position: absolute;
+  left: 0;
+}
+.kmParent {
+  top: 6.48rem;
+  width: 10.5rem;
+  height: 2.31rem;
+}
+.colombo {
+  top: 1.31rem;
+  line-height: 0.95rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.colomboParent,
+.groupContainer,
+.technologyParent {
+  position: absolute;
+  top: 9.73rem;
+  left: 0;
+  width: 12.13rem;
+  height: 2.31rem;
+}
+.groupContainer,
+.technologyParent {
+  top: 12.97rem;
+  width: 3.75rem;
+}
+.groupContainer {
+  top: 2.52rem;
+  width: 12.13rem;
+  height: 15.27rem;
+  color: var(--color-darkslategray-200);
+}
+.groupDiv,
+.profile,
+.routeInfoParent {
+  position: absolute;
+  width: 12.13rem;
+  height: 17.79rem;
+}
+.routeInfoParent {
+  top: 0;
+  left: 0;
+}
+.groupDiv,
+.profile {
+  top: 1.44rem;
+  left: 30.93rem;
+}
+.profile {
+  top: 9.28rem;
+  left: 2.7rem;
+  border-radius: 6.48px;
+  border: 0.7px solid var(--color-gainsboro-600);
+  box-sizing: border-box;
+  width: 46.19rem;
+  height: 24.36rem;
+  overflow: hidden;
+  color: var(--color-steelblue-200);
+}
+.educationLevelParent {
+  position: absolute;
+  top: 12.97rem;
+  left: 0;
+  width: 4.94rem;
+  height: 2.31rem;
+  color: var(--color-slategray);
+}
+.singleParent {
+  top: 9.73rem;
+  width: 4.5rem;
+}
+.container,
+.lkParent,
+.n455346Parent,
+.singleParent {
+  position: absolute;
+  left: 0;
+  height: 2.31rem;
+}
+.container {
+  top: 0;
+  width: 6.19rem;
+}
+.lkParent,
+.n455346Parent {
+  top: 3.24rem;
+  width: 5.5rem;
+}
+.lkParent {
+  top: 6.48rem;
+  width: 3.44rem;
+}
+.groupParent2,
+.mainRoadAthidiyaDehiwalaContainer {
+  position: absolute;
+  top: 16.21rem;
+  left: 0;
+  width: 11.31rem;
+  height: 3.24rem;
+}
+.groupParent2 {
+  top: 2.52rem;
+  height: 19.45rem;
+}
+.vehicleInfo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 0.95rem;
+  text-transform: uppercase;
+  color: var(--color-steelblue-200);
+}
+.groupParent1 {
+  position: absolute;
+  top: 10.71rem;
+  left: 19.9rem;
+  width: 11.31rem;
+  height: 21.98rem;
+  color: var(--color-darkslategray-200);
+}
+.dateCreated04032023 {
+  position: absolute;
+  top: 6.53rem;
+  left: 2.79rem;
+  font-size: 0.63rem;
+  line-height: 0.95rem;
+  font-weight: 500;
+  color: var(--color-slategray);
+}
+.edit,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.groupItem {
+  border-radius: 5.04px;
+  background-color: var(--label-color-dark-primary);
+  border: 1.4px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+  width: 4.41rem;
+  height: 1.98rem;
+}
+.edit {
+  font-size: 0.72rem;
+  line-height: 0.95rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-darkslategray-200);
+  text-align: left;
+}
+.notepencilIcon {
+  position: absolute;
+  height: 78.75%;
+  width: 34.67%;
+  top: 11.88%;
+  right: 0;
+  bottom: 9.38%;
+  left: 65.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.editParent {
+  position: absolute;
+  top: 0.49rem;
+  left: 0.99rem;
+  width: 2.34rem;
+  height: 1rem;
+}
+.groupInner,
+.rectangleGroup {
+  position: absolute;
+  height: 1.98rem;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 34.71rem;
+  left: 38.31rem;
+  width: 4.41rem;
+}
+.groupInner {
+  top: 0;
+  left: 0;
+  border-radius: 5.04px;
+  background-color: #ea5858;
+  border: 1.4px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+  width: 5.76rem;
+}
+.saveChanges {
+  position: absolute;
+  top: 0.49rem;
+  left: 0.63rem;
+  font-size: 0.68rem;
+  line-height: 0.95rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--label-color-dark-primary);
+  text-align: left;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 34.71rem;
+  left: 43.18rem;
+  width: 5.76rem;
+  height: 1.98rem;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--label-color-dark-primary);
+  box-shadow: 0-0.7px 0#dfe5f1 inset;
+  width: 53.13rem;
+  height: 3.42rem;
+}
+.image53Icon,
+.image55Icon,
+.image56Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.94rem;
+  height: 1.44rem;
+  object-fit: cover;
+}
+.image55Icon,
+.image56Icon {
+  width: 1.8rem;
+  height: 1.89rem;
+}
+.image56Icon {
+  width: 2.7rem;
+  height: 2.84rem;
+}
+.avatar {
+  position: absolute;
+  top: 0.99rem;
+  left: 50.11rem;
+  border-radius: 136.86px;
+  background-color: var(--label-color-dark-primary);
+  width: 1.44rem;
+  height: 1.44rem;
+  overflow: hidden;
+}
+.iconmessages2,
+.iconnotificationBing {
+  position: absolute;
+  top: 1.17rem;
+  left: 45.83rem;
+  width: 1.08rem;
+  height: 1.08rem;
+}
+.iconmessages2 {
+  left: 47.86rem;
+}
+.searchbar2Fig4 {
+  background-color: transparent;
+  position: absolute;
+  top: 0.81rem;
+  left: 2.43rem;
+}
+.image54Icon,
+.image55Icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.21rem;
+  height: 2.21rem;
+  object-fit: cover;
+}
+.image55Icon1 {
+  width: 1.58rem;
+  height: 1.62rem;
+}
+.avatar1 {
+  position: absolute;
+  top: 0.99rem;
+  left: 50.16rem;
+  border-radius: 145.42px;
+  background-color: var(--label-color-dark-primary);
+  width: 1.44rem;
+  height: 1.44rem;
+  overflow: hidden;
+}
+.rectangleParent1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 53.13rem;
+  height: 3.42rem;
+}
+.activityLog,
+.attachedDocuments {
+  position: absolute;
+  top: 38.13rem;
+  left: 2.79rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.activityLog {
+  top: 61.01rem;
+}
+.frameChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs-2);
+  background-color: var(--label-color-dark-primary);
+  border: 0.7px solid var(--color-gainsboro-600);
+  box-sizing: border-box;
+}
+.checklistDesignChallengeV2 {
+  position: absolute;
+  top: -0.04rem;
+  left: -0.04rem;
+  width: 2.21rem;
+  height: 2.21rem;
+  overflow: hidden;
+}
+.d,
+.iconstar {
+  position: absolute;
+}
+.d {
+  top: 0.68rem;
+  left: 2.52rem;
+  border-radius: var(--br-5xs-2);
+  width: 2.07rem;
+  height: 2.07rem;
+  overflow: hidden;
+}
+.iconstar {
+  top: 1.26rem;
+  left: 23.86rem;
+  width: 0.72rem;
+  height: 0.72rem;
+}
+.drivingLisence {
+  position: absolute;
+  top: 1.31rem;
+  left: 2.07rem;
+  font-weight: 600;
+}
+.frameDiv {
+  position: absolute;
+  top: 42.14rem;
+  left: 2.7rem;
+  width: 33.63rem;
+  height: 3.42rem;
+  overflow: hidden;
+}
+.spanbadgeWrapper {
+  position: absolute;
+  top: 0.81rem;
+  left: 15.94rem;
+  background-color: var(--color-gray-400);
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.rectangleParent2 {
+  position: absolute;
+  top: 46.24rem;
+  left: 2.7rem;
+  width: 33.63rem;
+  height: 3.42rem;
+}
+.nic {
+  position: absolute;
+  top: 1.31rem;
+  left: 2.12rem;
+  font-weight: 600;
+}
+.rectangleParent3 {
+  position: absolute;
+  top: 50.33rem;
+  left: 2.7rem;
+  width: 33.63rem;
+  height: 3.42rem;
+}
+.vehicleImage {
+  position: absolute;
+  top: 1.26rem;
+  left: 2.07rem;
+  font-weight: 600;
+}
+.spanavatarIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4.32px;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.open {
+  position: absolute;
+  top: 0.12rem;
+  left: 0.36rem;
+  line-height: 0.72rem;
+  display: flex;
+  align-items: center;
+  width: 1.37rem;
+  height: 0.63rem;
+}
+.spanbadge {
+  position: absolute;
+  top: -0.45rem;
+  left: 0.76rem;
+  border-radius: 7202.67px;
+  background-color: var(--color-mediumseagreen-100);
+  width: 2.09rem;
+  height: 0.9rem;
+}
+.spanbadgeWrapper1,
+.spanbadgeWrapper2,
+.spanbadgeWrapper3,
+.spanbadgeWrapper4 {
+  position: absolute;
+  left: 0;
+  background-color: var(--color-gray-400);
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.spanbadgeWrapper1 {
+  top: 0;
+}
+.spanbadgeWrapper2,
+.spanbadgeWrapper3,
+.spanbadgeWrapper4 {
+  top: 4.1rem;
+}
+.spanbadgeWrapper3,
+.spanbadgeWrapper4 {
+  top: 8.24rem;
+}
+.spanbadgeWrapper4 {
+  top: 12.43rem;
+}
+.spanbadgeWrapperParent {
+  position: absolute;
+  top: -11.48rem;
+  left: 12.38rem;
+  width: 1.8rem;
+  height: 14.23rem;
+  font-size: 0.54rem;
+  color: var(--label-color-dark-primary);
+}
+.spantextLgIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.81rem;
+  height: 0.81rem;
+}
+.approved {
+  position: absolute;
+  top: 0.08rem;
+  left: 0.99rem;
+  font-size: 0.54rem;
+  line-height: 0.72rem;
+  display: flex;
+  font-family: var(--font-urbanist);
+  color: var(--label-color-dark-primary);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 2.55rem;
+  height: 0.63rem;
+}
+.spanflex {
+  position: absolute;
+  top: 0.23rem;
+  left: 0.54rem;
+  background-color: var(--color-gray-400);
+  width: 3.54rem;
+  height: 0.81rem;
+}
+.buttonbutton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-mediumseagreen-100);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4.32px;
+  width: 4.62rem;
+  height: 1.26rem;
+}
+.spantextLgIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0.14rem;
+  width: 0.81rem;
+  height: 0.81rem;
+}
+.reject {
+  position: absolute;
+  top: 0.09rem;
+  left: 1.14rem;
+  font-size: var(--font-size-5xs-2);
+  line-height: 0.72rem;
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--label-color-dark-primary);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.35rem;
+  height: 0.63rem;
+}
+.spanflex1 {
+  position: absolute;
+  top: 0.23rem;
+  left: 0.56rem;
+  background-color: var(--color-gray-400);
+  width: 2.64rem;
+  height: 0.81rem;
+}
+.buttonbutton1,
+.div4 {
+  position: absolute;
+  top: 0;
+}
+.buttonbutton1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-salmon-100);
+  left: 4.98rem;
+  border-radius: 4.32px;
+  width: 3.72rem;
+  height: 1.26rem;
+}
+.div4 {
+  left: 0;
+  background-color: var(--color-gray-400);
+  width: 9.06rem;
+  height: 1.62rem;
+}
+.reject2,
+.spanflex3,
+.spantextLgIcon4 {
+  position: absolute;
+  top: 0.23rem;
+  height: 0.81rem;
+}
+.spanflex3 {
+  left: 0.54rem;
+  background-color: var(--color-gray-400);
+  width: 2.64rem;
+}
+.reject2,
+.spantextLgIcon4 {
+  left: 0.69rem;
+  width: 0.81rem;
+}
+.reject2 {
+  top: 0.31rem;
+  left: 1.7rem;
+  font-size: var(--font-size-5xs-2);
+  line-height: 0.72rem;
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--label-color-dark-primary);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.35rem;
+  height: 0.63rem;
+}
+.div5,
+.div6 {
+  left: 0;
+  background-color: var(--color-gray-400);
+  height: 1.62rem;
+}
+.div5 {
+  position: absolute;
+  top: 4.01rem;
+  width: 9.06rem;
+}
+.div6 {
+  top: 8.15rem;
+}
+.div6,
+.div7,
+.divParent {
+  position: absolute;
+  width: 9.06rem;
+}
+.div7 {
+  top: 12.11rem;
+  left: 0;
+  background-color: var(--color-gray-400);
+  height: 1.62rem;
+}
+.divParent {
+  top: -11.16rem;
+  left: 23.19rem;
+  height: 13.73rem;
+}
+.rectangleParent4 {
+  position: absolute;
+  top: 54.43rem;
+  left: 2.7rem;
+  width: 33.63rem;
+  height: 3.42rem;
+}
+.document,
+.documentType,
+.status {
+  position: absolute;
+  top: 40.79rem;
+  left: 4.78rem;
+  font-size: 0.63rem;
+  color: var(--gray-2);
+}
+.document,
+.status {
+  left: 14.9rem;
+}
+.status {
+  left: 29.13rem;
+}
+.groupChild1 {
+  position: absolute;
+  top: 63.66rem;
+  left: 2.7rem;
+  border-radius: 9.36px;
+  background-color: var(--label-color-dark-primary);
+  border: 0.7px solid var(--color-gainsboro-600);
+  box-sizing: border-box;
+  width: 37.86rem;
+  height: 33.63rem;
+}
+.sunday06March {
+  position: absolute;
+  top: 0.09rem;
+  left: 0;
+  line-height: 0.95rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 6.28rem;
+  height: 0.75rem;
+}
+.div11 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-400);
+  width: 32.44rem;
+  height: 0.94rem;
+}
+.cp,
+.div11,
+.spanavatar {
+  position: absolute;
+}
+.cp {
+  top: 0.36rem;
+  left: 0.31rem;
+  line-height: 1.35rem;
+  display: flex;
+  align-items: center;
+  width: 0.74rem;
+  height: 0.63rem;
+}
+.spanavatar {
+  top: 0.18rem;
+  left: 0;
+  border-radius: 7202.67px;
+  background-color: #14b8a6;
+  width: 1.35rem;
+  height: 1.35rem;
+}
+.divtimelineConnect {
+  position: absolute;
+  top: 1.97rem;
+  left: 0.63rem;
+  background-color: var(--color-gainsboro-200);
+  width: 0.09rem;
+  height: 1.19rem;
+}
+.divtimelineItemMedia {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-400);
+  width: 1.35rem;
+  height: 3.15rem;
+}
+.spanbadgeDot {
+  position: absolute;
+  top: 0.29rem;
+  left: 13.89rem;
+  border-radius: 7202.67px;
+  background-color: #10b981;
+  width: 0.36rem;
+  height: 0.36rem;
+}
+.pm {
+  position: absolute;
+  top: 0.09rem;
+  left: 18.33rem;
+  line-height: 0.95rem;
+  width: 2.87rem;
+}
+.approved4,
+.pm,
+.statusTo {
+  display: flex;
+  align-items: center;
+  height: 0.75rem;
+}
+.approved4 {
+  position: absolute;
+  top: 0.09rem;
+  left: 14.43rem;
+  line-height: 0.95rem;
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-gray-300);
+  width: 3.36rem;
+}
+.statusTo {
+  left: 11.09rem;
+  width: 2.62rem;
+}
+.carolynPerkins,
+.hasChange,
+.passport,
+.statusTo {
+  position: absolute;
+  top: 0.09rem;
+  line-height: 0.95rem;
+}
+.passport {
+  left: 8.51rem;
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-gray-300);
+}
+.carolynPerkins,
+.hasChange {
+  display: flex;
+  align-items: center;
+  height: 0.75rem;
+}
+.hasChange {
+  left: 4.82rem;
+  width: 3.44rem;
+}
+.carolynPerkins {
+  left: 0;
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-gray-300);
+  width: 4.79rem;
+}
+.divtimelineItemWrapper,
+.p {
+  position: absolute;
+  background-color: var(--color-gray-400);
+}
+.p {
+  top: 0.27rem;
+  left: 2.07rem;
+  width: 30.37rem;
+  height: 0.94rem;
+  font-size: 0.63rem;
+  color: var(--color-slategray);
+}
+.divtimelineItemWrapper {
+  top: 0;
+  left: 0;
+  width: 32.44rem;
+  height: 3.15rem;
+  font-size: 0.54rem;
+  color: var(--color-whitesmoke-100);
+}
+.imgavatarImgIcon {
+  top: 0;
+  object-fit: cover;
+}
+.imgavatarImgIcon,
+.imgavatarImgIcon1,
+.spanavatar1 {
+  position: absolute;
+  left: 0;
+  border-radius: 7202.67px;
+  width: 1.35rem;
+  height: 1.35rem;
+}
+.imgavatarImgIcon1 {
+  top: 0.01rem;
+  object-fit: cover;
+}
+.spanavatar1 {
+  top: 0.18rem;
+  background-color: var(--color-darkgray-200);
+}
+.divtimelineConnect1 {
+  position: absolute;
+  top: 1.97rem;
+  left: 0.63rem;
+  background-color: var(--color-gainsboro-200);
+  width: 0.09rem;
+  height: 4.8rem;
+}
+.divtimelineItemMedia1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-400);
+  width: 1.35rem;
+  height: 6.77rem;
+}
+.pm1 {
+  left: 10.93rem;
+  width: 2.88rem;
+}
+.commentOnYour,
+.pm1,
+.post {
+  position: absolute;
+  top: 0.09rem;
+  line-height: 0.95rem;
+  display: flex;
+  align-items: center;
+  height: 0.75rem;
+}
+.post {
+  left: 9.01rem;
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-gray-300);
+  width: 1.37rem;
+}
+.commentOnYour {
+  left: 3.63rem;
+  width: 5.21rem;
+}
+.p1,
+.ronVargas {
+  position: absolute;
+  left: 0;
+}
+.ronVargas {
+  top: 0.09rem;
+  line-height: 0.95rem;
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-gray-300);
+  display: flex;
+  align-items: center;
+  width: 3.45rem;
+  height: 0.75rem;
+}
+.p1 {
+  top: 0;
+  background-color: var(--color-gray-400);
+  width: 30.37rem;
+  height: 0.94rem;
+}
+.fineJavaMightContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.fineJavaMightContainer {
+  position: absolute;
+  top: 0.99rem;
+  left: 0.9rem;
+  line-height: 0.95rem;
+  display: flex;
+  align-items: center;
+  width: 28.27rem;
+  height: 1.69rem;
+}
+.divcardBody {
+  position: absolute;
+  top: 0.03rem;
+  left: 0.03rem;
+  background-color: var(--color-gray-400);
+  width: 30.31rem;
+  height: 3.69rem;
+}
+.divcard {
+  position: absolute;
+  top: 1.67rem;
+  left: 0;
+  border-radius: 5.76px;
+  background-color: var(--label-color-dark-primary);
+  border: 0.5px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 30.37rem;
+  height: 3.75rem;
+}
+.div12,
+.divtimelineItemWrapper1 {
+  position: absolute;
+  background-color: var(--color-gray-400);
+}
+.div12 {
+  top: 0.27rem;
+  left: 2.07rem;
+  width: 30.37rem;
+  height: 5.42rem;
+}
+.divtimelineItemWrapper1 {
+  top: 3.15rem;
+  left: 0;
+  width: 32.44rem;
+  height: 6.77rem;
+}
+.spanavatarIcon4 {
+  position: absolute;
+  top: 0.18rem;
+  left: 0;
+  border-radius: 7202.67px;
+  width: 1.35rem;
+  height: 1.35rem;
+}
+.divtimelineConnect2 {
+  position: absolute;
+  top: 1.71rem;
+  left: 0.63rem;
+  background-color: var(--color-gainsboro-200);
+  width: 0.09rem;
+  height: 1.44rem;
+}
+.joyceFreeman,
+.spanfontSemibold {
+  position: absolute;
+  left: 0;
+  width: 4.63rem;
+}
+.joyceFreeman {
+  top: 0.09rem;
+  line-height: 0.95rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 0.75rem;
+}
+.spanfontSemibold {
+  top: 0.1rem;
+  background-color: var(--color-gray-400);
+  height: 0.94rem;
+  color: var(--color-gray-300);
+}
+.spantagAffix {
+  position: absolute;
+  top: 0.39rem;
+  left: 0.48rem;
+  border-radius: 7202.67px;
+  background-color: #f43f5e;
+  width: 0.36rem;
+  height: 0.36rem;
+}
+.liveIssue {
+  position: absolute;
+  top: 0.24rem;
+  left: 1.11rem;
+  line-height: 0.72rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 2.59rem;
+  height: 0.63rem;
+}
+.divtag,
+.spantagAffix1 {
+  position: absolute;
+  border-radius: 7202.67px;
+}
+.divtag {
+  top: 0;
+  left: 8.54rem;
+  background-color: var(--color-gray-400);
+  border: 0.5px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 4.18rem;
+  height: 1.14rem;
+  font-size: 0.54rem;
+}
+.spantagAffix1 {
+  top: 0.39rem;
+  left: 0.48rem;
+  background-color: #3b82f6;
+  width: 0.36rem;
+  height: 0.36rem;
+}
+.backend {
+  position: absolute;
+  top: 0.24rem;
+  left: 1.11rem;
+  line-height: 0.72rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 2.26rem;
+  height: 0.63rem;
+}
+.divtag1 {
+  position: absolute;
+  top: 0;
+  left: 13.09rem;
+  border-radius: 7202.67px;
+  background-color: var(--color-gray-400);
+  border: 0.5px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 3.86rem;
+  height: 1.14rem;
+  font-size: 0.54rem;
+}
+.addedTags,
+.pm2 {
+  position: absolute;
+  top: 0.19rem;
+  left: 17.66rem;
+  line-height: 0.95rem;
+  font-family: var(--font-inter);
+  display: flex;
+  align-items: center;
+  width: 2.72rem;
+  height: 0.75rem;
+}
+.addedTags {
+  left: 4.81rem;
+  width: 3.38rem;
+}
+.divflex,
+.divtimelineItemWrapper2 {
+  position: absolute;
+  background-color: var(--color-gray-400);
+}
+.divflex {
+  top: 0.27rem;
+  left: 2.07rem;
+  width: 30.37rem;
+  height: 1.14rem;
+}
+.divtimelineItemWrapper2 {
+  top: 9.92rem;
+  left: 0;
+  width: 32.44rem;
+  height: 3.15rem;
+  font-family: var(--font-urbanist);
+}
+.lukeCook,
+.spanfontSemibold1 {
+  position: absolute;
+  left: 0;
+  width: 3.21rem;
+}
+.lukeCook {
+  top: 0.09rem;
+  line-height: 0.95rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 0.75rem;
+}
+.spanfontSemibold1 {
+  top: 0;
+  background-color: var(--color-gray-400);
+  height: 0.94rem;
+}
+.pd1092,
+.spanfontSemibold2 {
+  position: absolute;
+  width: 2.68rem;
+}
+.pd1092 {
+  top: 0.09rem;
+  left: 0;
+  line-height: 0.95rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 0.75rem;
+}
+.spanfontSemibold2 {
+  top: 0;
+  left: 12.61rem;
+  background-color: var(--color-gray-400);
+  height: 0.94rem;
+}
+.pm3,
+.toTicket {
+  font-family: var(--font-inter);
+  color: var(--color-slategray);
+}
+.pm3 {
+  position: absolute;
+  top: 0.09rem;
+  left: 15.83rem;
+  line-height: 0.95rem;
+  display: flex;
+  align-items: center;
+  width: 2.88rem;
+  height: 0.75rem;
+}
+.toTicket {
+  left: 9.99rem;
+  width: 2.44rem;
+}
+.added,
+.documentcsv,
+.toTicket {
+  position: absolute;
+  top: 0.09rem;
+  line-height: 0.95rem;
+  display: flex;
+  align-items: center;
+  height: 0.75rem;
+}
+.documentcsv {
+  left: 5.46rem;
+  font-weight: 600;
+  width: 4.35rem;
+}
+.added {
+  left: 3.39rem;
+  font-family: var(--font-inter);
+  color: var(--color-slategray);
+  width: 1.89rem;
+}
+.divflex1,
+.divtimelineItemWrapper3 {
+  position: absolute;
+  background-color: var(--color-gray-400);
+}
+.divflex1 {
+  top: 0.27rem;
+  left: 2.07rem;
+  width: 30.37rem;
+  height: 0.94rem;
+}
+.divtimelineItemWrapper3 {
+  top: 13.07rem;
+  left: 0;
+  width: 32.44rem;
+  height: 3.15rem;
+  color: var(--color-gray-300);
+  font-family: var(--font-urbanist);
+}
+.pm4,
+.post1 {
+  position: absolute;
+  top: 0.09rem;
+  left: 14.9rem;
+  line-height: 0.95rem;
+  display: flex;
+  align-items: center;
+  width: 2.88rem;
+  height: 0.75rem;
+}
+.post1 {
+  left: 12.99rem;
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-gray-300);
+  width: 1.37rem;
+}
+.mentionedYouIn {
+  top: 0.09rem;
+  left: 4.19rem;
+  width: 8.62rem;
+}
+.carolyn,
+.hadNoWay,
+.mentionedYouIn,
+.oneOfThe,
+.taraFletcher {
+  position: absolute;
+  line-height: 0.95rem;
+  display: flex;
+  align-items: center;
+  height: 0.75rem;
+}
+.taraFletcher {
+  top: 0.09rem;
+  left: 0;
+  font-weight: 600;
+  font-family: var(--font-urbanist);
+  color: var(--color-gray-300);
+  width: 4.01rem;
+}
+.carolyn,
+.hadNoWay,
+.oneOfThe {
+  top: 0.99rem;
+  left: 3.95rem;
+  width: 24.96rem;
+}
+.carolyn,
+.hadNoWay {
+  top: 1.94rem;
+  left: 0.9rem;
+  width: 19.95rem;
+}
+.carolyn {
+  top: 0.99rem;
+  width: 3.05rem;
+}
+.divtimelineItemWrapper4 {
+  position: absolute;
+  top: 16.23rem;
+  left: 0;
+  background-color: var(--color-gray-400);
+  width: 32.44rem;
+  height: 6.77rem;
+}
+.lw {
+  position: absolute;
+  top: 0.36rem;
+  left: 0.27rem;
+  line-height: 1.35rem;
+  display: flex;
+  align-items: center;
+  width: 0.82rem;
+  height: 0.63rem;
+}
+.spanavatar3 {
+  position: absolute;
+  top: 0.18rem;
+  left: 0;
+  border-radius: 7202.67px;
+  background-color: #ec4899;
+  width: 1.35rem;
+  height: 1.35rem;
+}
+.leeWheeler,
+.spanfontSemibold3 {
+  position: absolute;
+  left: 0;
+  width: 3.82rem;
+}
+.leeWheeler {
+  top: 0.09rem;
+  line-height: 0.95rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 0.75rem;
+}
+.spanfontSemibold3 {
+  top: 0;
+  background-color: var(--color-gray-400);
+  height: 0.94rem;
+}
+.gailBarnes {
+  position: absolute;
+  top: 0.09rem;
+  left: 0;
+  line-height: 0.95rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 3.46rem;
+  height: 0.75rem;
+}
+.spanfontSemibold4 {
+  position: absolute;
+  top: 0;
+  left: 12.33rem;
+  background-color: var(--color-gray-400);
+  width: 3.46rem;
+  height: 0.94rem;
+}
+.pm5,
+.to {
+  font-family: var(--font-inter);
+  color: var(--color-slategray);
+}
+.pm5 {
+  position: absolute;
+  top: 0.09rem;
+  left: 16.32rem;
+  line-height: 0.95rem;
+  display: flex;
+  align-items: center;
+  width: 2.81rem;
+  height: 0.75rem;
+}
+.to {
+  left: 11.54rem;
+  width: 0.6rem;
+}
+.assignedTicket,
+.pd10921,
+.to {
+  position: absolute;
+  top: 0.09rem;
+  line-height: 0.95rem;
+  display: flex;
+  align-items: center;
+  height: 0.75rem;
+}
+.pd10921 {
+  left: 8.69rem;
+  font-weight: 600;
+  width: 2.68rem;
+}
+.assignedTicket {
+  left: 3.99rem;
+  font-family: var(--font-inter);
+  color: var(--color-slategray);
+  width: 4.51rem;
+}
+.divflex2,
+.divtimelineItemWrapper5 {
+  position: absolute;
+  background-color: var(--color-gray-400);
+}
+.divflex2 {
+  top: 0.27rem;
+  left: 2.07rem;
+  width: 30.37rem;
+  height: 0.94rem;
+  font-size: 0.63rem;
+  color: var(--color-gray-300);
+  font-family: var(--font-urbanist);
+}
+.divtimelineItemWrapper5 {
+  top: 22.99rem;
+  left: 0;
+  width: 32.44rem;
+  height: 1.97rem;
+  font-size: 0.54rem;
+  color: var(--color-whitesmoke-100);
+}
+.ultimeline {
+  top: 1.67rem;
+  left: 0;
+  width: 32.44rem;
+  height: 24.96rem;
+  font-family: var(--font-inter);
+}
+.div10,
+.div8,
+.div9,
+.ultimeline {
+  position: absolute;
+  background-color: var(--color-gray-400);
+}
+.div10 {
+  top: 0;
+  left: 0;
+  width: 32.44rem;
+  height: 26.63rem;
+}
+.div8,
+.div9 {
+  width: 32.46rem;
+}
+.div9 {
+  top: 2.52rem;
+  left: 0;
+  height: 28.05rem;
+}
+.div8 {
+  top: 63.03rem;
+  left: 5.68rem;
+  height: 29.13rem;
+  font-size: 0.63rem;
+  color: var(--color-slategray);
+}
+.rectangleParent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.divIcon {
+  position: absolute;
+  top: 0.36rem;
+  left: 0.36rem;
+  width: 1.08rem;
+  height: 1.08rem;
+}
+.divheaderActionItem,
+.divheaderActionItemIcon {
+  position: absolute;
+  top: 0;
+  border-radius: 7202.67px;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.divheaderActionItem {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-400);
+  left: 0.18rem;
+}
+.divheaderActionItemIcon {
+  left: 2.34rem;
+  display: none;
+}
+.divheaderAction {
+  position: absolute;
+  top: 0.81rem;
+  left: 0.09rem;
+  background-color: var(--color-gray-400);
+  width: 4.33rem;
+  height: 1.8rem;
+}
+.driverProfileDetail {
+  position: relative;
+  background-color: var(--label-color-dark-primary);
+  width: 100%;
+  height: 99.54rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 0.72rem;
+  color: var(--black-2);
+  font-family: var(--font-urbanist);
+}

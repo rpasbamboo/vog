@@ -1,0 +1,229 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.asset84xIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.divlogo,
+.logo {
+  position: absolute;
+  top: 11.4px;
+  left: 17.9px;
+  width: 125px;
+  height: 25px;
+}
+.divlogo {
+  top: 17.9px;
+  left: 0;
+  background-color: var(--color-gray-400);
+  width: 178.6px;
+  height: 45.7px;
+}
+.growthIcon {
+  position: relative;
+  width: 12.9px;
+  height: 12.9px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.myGroup {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  letter-spacing: 0.02em;
+  line-height: 137.1%;
+  font-weight: 500;
+  font-family: var(--font-lexend);
+  color: var(--color-gray-100);
+  text-align: left;
+}
+.component1 {
+  cursor: pointer;
+  border: 0;
+  padding: 11.428622245788574px 23.571533203125px;
+  background-color: transparent;
+  width: 142.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: 5.71px;
+}
+.component1Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.analytics1 {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  letter-spacing: 0.02em;
+  line-height: 137.1%;
+  font-weight: 500;
+  font-family: var(--font-lexend);
+  color: var(--color-red-100);
+  text-align: left;
+}
+.settingParent {
+  cursor: pointer;
+  border: 0;
+  padding: 11.428622245788574px 22.85724449157715px;
+  background-color: var(--color-lavenderblush);
+  border-radius: 11.43px;
+  box-shadow: 0 2.9px 41.43px rgba(0, 0, 0, 0.07);
+  width: 156.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: 5.71px;
+  z-index: 0;
+}
+.frameChild {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 11.35px);
+  left: 0;
+  border-radius: 0 2.86px 2.86px 0;
+  background-color: var(--color-red-100);
+  width: 4.3px;
+  height: 22.9px;
+  z-index: 1;
+}
+.frameParent,
+.menuItem {
+  display: flex;
+  flex-direction: column;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 39.29px;
+}
+.menuItem {
+  position: absolute;
+  top: 112.9px;
+  left: 0;
+  width: 178.6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5.71px;
+}
+.influencer,
+.theresaMilly {
+  position: relative;
+  line-height: 137.1%;
+}
+.theresaMilly {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.influencer {
+  font-size: 8.57px;
+  letter-spacing: 0.01em;
+  color: var(--color-gray-100);
+}
+.theresaMillyParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logout1 {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  letter-spacing: 0.02em;
+  line-height: 137.1%;
+  font-weight: 500;
+  font-family: var(--font-lexend);
+  color: var(--color-orangered-100);
+  text-align: left;
+}
+.logout,
+.logoutGroup {
+  display: flex;
+  justify-content: center;
+}
+.logoutGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 8.571466445922852px 22.85724449157715px;
+  background-color: var(--color-orangered-200);
+  align-self: stretch;
+  border-radius: 8.57px;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.86px;
+}
+.logout {
+  position: absolute;
+  top: 21.4px;
+  right: 0;
+  border-radius: 11.43px;
+  background-color: var(--label-color-dark-primary);
+  box-shadow: 0 1.4px 7.14px rgba(0, 0, 0, 0.1);
+  border: 1.4px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 144.3px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25.714399337768555px 11.428622245788574px 11.428622245788574px;
+  gap: 8.57px;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 50.7px;
+  border-radius: 50%;
+  width: 42.9px;
+  height: 42.9px;
+  object-fit: cover;
+}
+.logoutParent {
+  position: absolute;
+  top: 480px;
+  right: 19.3px;
+  width: 144.3px;
+  height: 128.3px;
+  cursor: pointer;
+}
+.settingNavbar {
+  background-color: var(--label-color-dark-primary);
+  border-right: 2.1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+  width: 180.7px;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+  max-width: 90%;
+  text-align: left;
+  font-size: 12.86px;
+  color: var(--color-gray-200);
+  font-family: var(--font-lexend);
+}
+.settingNavbar.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-left;
+}

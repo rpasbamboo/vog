@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Uber+Move+Text:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Helvetica:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --other-other-regular: Poppins;
+  --paragraph-small: "Uber Move Text";
+  --font-inter: Inter;
+  --font-urbanist: Urbanist;
+  --font-lexend: Lexend;
+  --font-helvetica: Helvetica;
+
+  /* font sizes */
+  --body-text-body-medium-size: 1rem;
+  --heading-size: 1.75rem;
+  --other-other-regular-size: 0.75rem;
+  --paragraph-small-size: 0.88rem;
+  --font-size-5xs-1: 0.44rem;
+  --font-size-3xs-4: 0.59rem;
+  --font-size-2xs-1: 0.63rem;
+  --font-size-4xs-6: 0.54rem;
+  --font-size-5xs-2: 0.45rem;
+  --font-size-xs-5: 0.72rem;
+  --font-size-mini-4: 0.9rem;
+  --font-size-3xs: 0.63rem;
+  --font-size-xs-4: 0.71rem;
+  --font-size-mini-3: 0.89rem;
+  --font-size-mid-1: 1.07rem;
+  --font-size-smi-9: 0.81rem;
+  --font-size-mid-9: 1.12rem;
+  --font-size-2xl-4: 1.34rem;
+  --font-size-mid-8: 1.11rem;
+  --font-size-2xs-7: 0.67rem;
+  --font-size-5xs-8: 0.49rem;
+  --font-size-2xs-5: 0.66rem;
+  --font-size-smi-3: 0.77rem;
+  --font-size-sm-5: 0.84rem;
+  --font-size-sm-6: 0.85rem;
+
+  /* Colors */
+  --label-color-dark-primary: #fff;
+  --color-red-100: #ff0000;
+  --color-red-200: #fa0000;
+  --text-tertiary: #bebebf;
+  --primary-weak: #e0effe;
+  --primary: #5570f1;
+  --primary1: #007dfa;
+  --color-dimgray-100: #716a6a;
+  --content-contenttertiary: #5e5e5e;
+  --text-secondary: #5a5a5d;
+  --content-contentsecondary: #545454;
+  --color-gray-100: #818187;
+  --color-gray-200: #1a1a21;
+  --black-2: #141736;
+  --color-gray-300: #111827;
+  --text-primary: #101012;
+  --color-gray-400: rgba(0, 0, 0, 0);
+  --color-steelblue-100: #606d93;
+  --color-steelblue-200: #435c9a;
+  --color-gainsboro-100: #e7e7e7;
+  --color-gainsboro-200: #e5e7eb;
+  --color-gainsboro-300: #e4e4e4;
+  --boder: #dddedf;
+  --color-gainsboro-400: #dcdcdc;
+  --color-gainsboro-500: #dadada;
+  --color-gainsboro-600: #d8d8d8;
+  --color-darkslategray-100: #414141;
+  --color-darkslategray-200: #374151;
+  --color-darkslategray-300: #3c3c3c;
+  --color-darkslategray-400: #373d3f;
+  --color-darkslategray-500: #2e2e2e;
+  --content-contentprimary: #000;
+  --color-slategray: #6b7280;
+  --color-whitesmoke-100: #f3f4f6;
+  --color-whitesmoke-200: #ebebeb;
+  --color-darkgray-100: #a3a3a6;
+  --color-darkgray-200: #9ca3af;
+  --color-crimson-100: #ef4444;
+  --color-mediumseagreen-100: #75c88c;
+  --gray-2: #7d8da6;
+  --color-salmon-100: #fe6470;
+  --color-salmon-200: #ec5757;
+  --color-lightgray-100: #d5d5d5;
+  --color-lightgray-200: #d1d5db;
+  --color-lightsteelblue: rgba(165, 180, 203, 0.4);
+  --color-orangered-100: #d1110b;
+  --color-orangered-200: rgba(209, 17, 11, 0.16);
+  --color-blueviolet: #9747ff;
+  --color-lavenderblush: #fff3f3;
+
+  /* Gaps */
+  --gap-13xl: 2rem;
+  --gap-5xl: 1.5rem;
+  --gap-5xs: 0.5rem;
+  --gap-xs: 0.75rem;
+  --gap-base: 1rem;
+  --gap-mini: 0.94rem;
+  --gap-3xs: 0.63rem;
+  --gap-8xs: 0.31rem;
+  --gap-4xs-9: 0.56rem;
+  --gap-7xs-7: 0.36rem;
+  --gap-smi-9: 0.81rem;
+  --gap-10xs-9: 0.18rem;
+  --gap-5xs-1: 0.44rem;
+  --gap-lg: 1.13rem;
+  --gap-4xs: 0.56rem;
+  --gap-9xs-8: 0.24rem;
+  --gap-4xs-6: 0.54rem;
+  --gap-20xl-3: 2.46rem;
+  --gap-lg-4: 1.15rem;
+  --gap-6xs-1: 0.38rem;
+  --gap-3xs-2: 0.57rem;
+  --gap-xl-2: 1.26rem;
+  --gap-xl-3: 1.27rem;
+  --gap-6xs-8: 0.43rem;
+  --gap-2xs-2: 0.64rem;
+
+  /* Paddings */
+  --padding-base: 1rem;
+  --padding-3xs: 0.63rem;
+  --padding-xs: 0.75rem;
+  --padding-6xs-5: 0.41rem;
+  --padding-lg-3: 1.14rem;
+  --padding-10xs-9: 0.18rem;
+  --padding-11xs-4: 0.09rem;
+  --padding-xs-4: 0.71rem;
+  --padding-4xs-6: 0.54rem;
+  --padding-4xs: 0.56rem;
+  --padding-6xl-7: 1.61rem;
+  --padding-3xl-9: 1.43rem;
+  --padding-4xl-6: 1.48rem;
+  --padding-smi-3: 0.77rem;
+  --padding-sm-5: 0.84rem;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-5xs: 8px;
+  --br-81xl: 100px;
+  --br-7183xl-7: 7202.7px;
+  --br-7xs-8: 5.8px;
+  --br-3xs-4: 9.4px;
+  --br-8xs-3: 4.3px;
+  --br-5xs-2: 7.2px;
+  --br-8xs: 5px;
+  --br-10xs-9: 2.9px;
+  --br-9xs-6: 3.6px;
+  --br-5xs-1: 7.1px;
+  --br-7123xl-1: 7142.1px;
+  --br-xs-4: 11.4px;
+  --br-4xs-6: 8.6px;
+  --br-7111xl-2: 7130.2px;
+  --br-base: 16px;
+  --br-7xs: 6px;
+  --br-6xs-1: 6.1px;
+  --br-6xs-7: 6.7px;
+  --br-6xs-8: 6.8px;
+}
