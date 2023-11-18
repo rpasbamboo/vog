@@ -1,7 +1,6 @@
 import { useMemo, useCallback } from "react";
 
 import { createPortal } from "react-dom";
-import styles from "./PortalDrawer.module.css";
 
 const PortalDrawer = ({
   children,
@@ -39,10 +38,7 @@ const PortalDrawer = ({
 
   const onOverlayClick = useCallback(
     (e) => {
-      if (
-        onOutsideClick &&
-        e.target.classList.contains(styles.portalPopupOverlay)
-      ) {
+      if (onOutsideClick && e.target.classList.contains("portalPopupOverlay")) {
         onOutsideClick();
       }
       e.stopPropagation();
@@ -53,7 +49,7 @@ const PortalDrawer = ({
   return (
     <DrawerContainer>
       <div
-        className={styles.portalPopupOverlay}
+        className="flex flex-col fixed inset-0 portalPopupOverlay"
         style={drawerStyle}
         onClick={onOverlayClick}
       >

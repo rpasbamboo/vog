@@ -1,6 +1,5 @@
 import { useCallback, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import styles from "./NavbarBilling.module.css";
 
 const NavbarBilling = ({ onClose }) => {
   const navigate = useNavigate();
@@ -13,7 +12,7 @@ const NavbarBilling = ({ onClose }) => {
         for (const entry of entries) {
           if (entry.isIntersecting || entry.intersectionRatio > 0) {
             const targetElement = entry.target;
-            targetElement.classList.add(styles.animate);
+            targetElement.classList.add("animate");
             observer.unobserve(targetElement);
           }
         }
@@ -55,71 +54,135 @@ const NavbarBilling = ({ onClose }) => {
   }, [navigate]);
 
   return (
-    <div className={styles.navbarBilling} data-animate-on-scroll>
-      <div className={styles.divlogo}>
-        <div className={styles.logo}>
+    <div
+      className="bg-white box-border w-[180.7px] h-full overflow-hidden [&.animate]:animate-[0.25s_ease_0s_1_normal_forwards_slide-in-left] opacity-[0] max-w-[90%] text-left text-[12.86px] text-gray-200 font-lexend border-r-[2.1px] border-solid border-gainsboro-300"
+      data-animate-on-scroll
+    >
+      <div className="absolute top-[17.9px] left-[0px] bg-gray-400 w-[178.6px] h-[45.7px]">
+        <div className="absolute top-[11.4px] left-[17.9px] w-[125px] h-[25px]">
           <img
-            className={styles.asset84xIcon}
+            className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
             alt=""
             src="/asset-84x2@2x.png"
           />
         </div>
       </div>
-      <div className={styles.menuItem}>
-        <div className={styles.component1Wrapper}>
-          <button className={styles.component1} onClick={onComponent1Click}>
-            <img className={styles.growthIcon} alt="" src="/growth.svg" />
-            <div className={styles.myGroup}>Analytics</div>
-          </button>
-        </div>
-        <div className={styles.component1Wrapper}>
-          <button className={styles.component1} onClick={onComponent11Click}>
-            <img className={styles.growthIcon} alt="" src="/carprofile.svg" />
-            <div className={styles.myGroup}>About campaign</div>
-          </button>
-        </div>
-        <div className={styles.component1Wrapper}>
-          <button className={styles.component1} onClick={onComponent12Click}>
-            <img className={styles.growthIcon} alt="" src="/rocketlaunch.svg" />
-            <div className={styles.myGroup}>Attribution</div>
-          </button>
-        </div>
-        <div className={styles.component1Wrapper}>
-          <button className={styles.component1} onClick={onComponent13Click}>
+      <div className="absolute top-[112.9px] left-[0px] w-[178.6px] flex flex-col items-start justify-start gap-[5.71px]">
+        <div className="self-stretch flex flex-col items-center justify-center">
+          <button
+            className="cursor-pointer [border:none] py-[11.428622245788574px] px-[23.571533203125px] bg-[transparent] w-[142.9px] flex flex-row items-center justify-start box-border gap-[5.71px]"
+            onClick={onComponent1Click}
+          >
             <img
-              className={styles.growthIcon}
+              className="relative w-[12.9px] h-[12.9px] overflow-hidden shrink-0"
+              alt=""
+              src="/growth.svg"
+            />
+            <div className="relative text-3xs tracking-[0.02em] leading-[137.1%] font-medium font-lexend text-gray-100 text-left">
+              Analytics
+            </div>
+          </button>
+        </div>
+        <div className="self-stretch flex flex-col items-center justify-center">
+          <button
+            className="cursor-pointer [border:none] py-[11.428622245788574px] px-[23.571533203125px] bg-[transparent] w-[142.9px] flex flex-row items-center justify-start box-border gap-[5.71px]"
+            onClick={onComponent11Click}
+          >
+            <img
+              className="relative w-[12.9px] h-[12.9px] overflow-hidden shrink-0"
+              alt=""
+              src="/carprofile.svg"
+            />
+            <div className="relative text-3xs tracking-[0.02em] leading-[137.1%] font-medium font-lexend text-gray-100 text-left">
+              About campaign
+            </div>
+          </button>
+        </div>
+        <div className="self-stretch flex flex-col items-center justify-center">
+          <button
+            className="cursor-pointer [border:none] py-[11.428622245788574px] px-[23.571533203125px] bg-[transparent] w-[142.9px] flex flex-row items-center justify-start box-border gap-[5.71px]"
+            onClick={onComponent12Click}
+          >
+            <img
+              className="relative w-[12.9px] h-[12.9px] overflow-hidden shrink-0"
+              alt=""
+              src="/rocketlaunch.svg"
+            />
+            <div className="relative text-3xs tracking-[0.02em] leading-[137.1%] font-medium font-lexend text-gray-100 text-left">
+              Attribution
+            </div>
+          </button>
+        </div>
+        <div className="self-stretch flex flex-col items-center justify-center">
+          <button
+            className="cursor-pointer [border:none] py-[11.428622245788574px] px-[23.571533203125px] bg-[transparent] w-[142.9px] flex flex-row items-center justify-start box-border gap-[5.71px]"
+            onClick={onComponent13Click}
+          >
+            <img
+              className="relative w-[12.9px] h-[12.9px] overflow-hidden shrink-0"
               alt=""
               src="/arrowscounterclockwise.svg"
             />
-            <div className={styles.myGroup}>Retargeting</div>
+            <div className="relative text-3xs tracking-[0.02em] leading-[137.1%] font-medium font-lexend text-gray-100 text-left">
+              Retargeting
+            </div>
           </button>
         </div>
-        <div className={styles.frameParent}>
-          <button className={styles.dollarCoinParent}>
-            <img className={styles.growthIcon} alt="" src="/dollar-coin.svg" />
-            <div className={styles.analytics1}>Billing</div>
+        <div className="self-stretch flex flex-col items-center justify-center relative gap-[39.29px]">
+          <button className="cursor-pointer [border:none] py-[11.428622245788574px] px-[22.85724449157715px] bg-lavenderblush rounded-[11.43px] shadow-[0px_2.9px_41.43px_rgba(0,_0,_0,_0.07)] w-[156.4px] flex flex-row items-center justify-start box-border gap-[5.71px] z-[0]">
+            <img
+              className="relative w-[12.9px] h-[12.9px] overflow-hidden shrink-0"
+              alt=""
+              src="/dollar-coin.svg"
+            />
+            <div className="relative text-3xs tracking-[0.02em] leading-[137.1%] font-medium font-lexend text-red-100 text-left">
+              Billing
+            </div>
           </button>
-          <div className={styles.frameChild} />
+          <div className="absolute my-0 mx-[!important] top-[calc(50%_-_11.35px)] left-[0px] rounded-tl-none rounded-tr-[2.86px] rounded-br-[2.86px] rounded-bl-none bg-red-100 w-[4.3px] h-[22.9px] z-[1]" />
         </div>
-        <div className={styles.component1Wrapper}>
-          <button className={styles.component1} onClick={onComponent14Click}>
-            <img className={styles.growthIcon} alt="" src="/setting.svg" />
-            <div className={styles.myGroup}>Settings</div>
+        <div className="self-stretch flex flex-col items-center justify-center">
+          <button
+            className="cursor-pointer [border:none] py-[11.428622245788574px] px-[23.571533203125px] bg-[transparent] w-[142.9px] flex flex-row items-center justify-start box-border gap-[5.71px]"
+            onClick={onComponent14Click}
+          >
+            <img
+              className="relative w-[12.9px] h-[12.9px] overflow-hidden shrink-0"
+              alt=""
+              src="/setting.svg"
+            />
+            <div className="relative text-3xs tracking-[0.02em] leading-[137.1%] font-medium font-lexend text-gray-100 text-left">
+              Settings
+            </div>
           </button>
         </div>
       </div>
-      <div className={styles.logoutParent}>
-        <div className={styles.logout}>
-          <div className={styles.theresaMillyParent}>
-            <div className={styles.theresaMilly}>popeyes</div>
-            <div className={styles.influencer}>Brand</div>
+      <div className="absolute top-[480px] right-[19.3px] w-[144.3px] h-[128.3px]">
+        <div className="absolute top-[21.4px] right-[0px] rounded-[11.43px] bg-white shadow-[0px_7.9px_40px_rgba(0,_0,_0,_0.07)] box-border w-[144.3px] flex flex-col items-start justify-center pt-[25.714399337768555px] px-[11.428622245788574px] pb-[11.428622245788574px] gap-[8.57px] border-[0.7px] border-solid border-gainsboro-100">
+          <div className="self-stretch flex flex-col items-center justify-start">
+            <div className="relative tracking-[0.02em] leading-[137.1%] font-medium">
+              popeyes
+            </div>
+            <div className="relative text-[8.57px] tracking-[0.01em] leading-[137.1%] text-gray-100">
+              Brand
+            </div>
           </div>
-          <button className={styles.logoutGroup}>
-            <img className={styles.growthIcon} alt="" src="/logout.svg" />
-            <div className={styles.logout1}>Logout</div>
+          <button className="cursor-pointer [border:none] py-[8.571466445922852px] px-[22.85724449157715px] bg-orangered-200 self-stretch rounded-[8.57px] flex flex-row items-center justify-center gap-[2.86px]">
+            <img
+              className="relative w-[12.9px] h-[12.9px] overflow-hidden shrink-0"
+              alt=""
+              src="/logout.svg"
+            />
+            <div className="relative text-3xs tracking-[0.02em] leading-[137.1%] font-medium font-lexend text-orangered-100 text-left">
+              Logout
+            </div>
           </button>
         </div>
-        <img className={styles.groupChild} alt="" src="/ellipse-11@2x.png" />
+        <img
+          className="absolute top-[0px] left-[50.7px] rounded-[50%] w-[42.9px] h-[42.9px] object-cover"
+          alt=""
+          src="/ellipse-11@2x.png"
+        />
       </div>
     </div>
   );
