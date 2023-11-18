@@ -183,7 +183,7 @@
   top: 21.4px;
   right: 0;
   border-radius: 11.43px;
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   box-shadow: 0 1.4px 7.14px rgba(0, 0, 0, 0.1);
   border: 1.4px solid var(--color-whitesmoke-200);
   box-sizing: border-box;
@@ -211,7 +211,7 @@
   cursor: pointer;
 }
 .settingNavbar {
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   border-right: 2.1px solid var(--color-gainsboro-300);
   box-sizing: border-box;
   width: 180.7px;

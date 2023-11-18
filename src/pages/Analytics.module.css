@@ -172,7 +172,7 @@
   position: absolute;
   top: 0;
   left: calc(50% - 424.3px);
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   border-bottom: 0.5px solid var(--color-gainsboro-200);
   box-sizing: border-box;
   width: 53.04rem;
@@ -257,7 +257,7 @@
   top: 20.19rem;
   left: calc(50% - 377.2px);
   border-radius: 11.41px;
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   border: 2.1px solid var(--color-whitesmoke-200);
   box-sizing: border-box;
   width: 47.2rem;
@@ -633,14 +633,14 @@
   bottom: 23.64%;
   left: 40.12%;
   border-radius: 4.99px;
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   box-shadow: 0 2.9px 2.85px rgba(0, 0, 0, 0.25);
   border: 0.7px solid #ececec;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-2xs-7);
   color: var(--color-darkslategray-100);
-  font-family: var(--other-other-regular);
+  font-family: var(--body-large-semibold);
 }
 .la9oa7d1Child {
   height: 60.16%;
@@ -729,7 +729,7 @@
   top: 46.31rem;
   left: calc(50% - 375.1px);
   border-radius: 11.41px;
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   border: 2.1px solid var(--color-whitesmoke-200);
   box-sizing: border-box;
   width: 46.93rem;
@@ -774,7 +774,7 @@
 }
 .cardnumbers {
   border-radius: 8.56px;
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   border: 0.7px solid var(--color-gainsboro-400);
   box-sizing: border-box;
   width: 13.37rem;
@@ -794,25 +794,23 @@
   color: var(--color-gray-200);
   font-family: var(--font-lexend);
 }
-.analytics,
-.headerheaderParent,
-.todayImpressionsParent {
-  background-color: var(--label-color-dark-primary);
-  overflow: hidden;
-}
 .todayImpressionsParent {
   position: absolute;
   top: 8.38rem;
   left: calc(50% - 377.2px);
   border-radius: 11.41px;
+  background-color: var(--white);
   border: 2.1px solid var(--color-whitesmoke-200);
   box-sizing: border-box;
   width: 47.2rem;
   height: 9.41rem;
+  overflow: hidden;
 }
 .analytics,
 .headerheaderParent {
+  background-color: var(--white);
   height: 79.96rem;
+  overflow: hidden;
 }
 .headerheaderParent {
   position: absolute;
@@ -826,5 +824,5 @@
   text-align: left;
   font-size: 0.89rem;
   color: var(--color-darkslategray-100);
-  font-family: var(--other-other-regular);
+  font-family: var(--body-large-semibold);
 }

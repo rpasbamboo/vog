@@ -155,7 +155,7 @@
   position: absolute;
   top: 0;
   left: calc(50% - 425px);
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   border-bottom: 0.5px solid var(--color-gainsboro-200);
   box-sizing: border-box;
   width: 53.13rem;
@@ -170,7 +170,7 @@
   top: 5.09rem;
   left: calc(50% - 382.1px);
   font-size: 1.07rem;
-  font-family: var(--other-other-regular);
+  font-family: var(--body-large-semibold);
   color: var(--color-darkslategray-300);
 }
 .profile {
@@ -195,7 +195,7 @@
   text-align: left;
   font-size: var(--font-size-3xs);
   color: var(--color-red-100);
-  font-family: var(--other-other-regular);
+  font-family: var(--body-large-semibold);
 }
 .preferences {
   position: absolute;
@@ -223,7 +223,7 @@
 .divtabNav2 {
   left: 8.44rem;
   width: 5.31rem;
-  font-family: var(--other-other-regular);
+  font-family: var(--body-large-semibold);
 }
 .integration {
   position: absolute;
@@ -364,7 +364,7 @@
   box-shadow: 0 2.9px 4.29px -2.86px rgba(0, 0, 0, 0.1),
     0 7.1px 10.71px -2.14px rgba(0, 0, 0, 0.1), 0 0 0 transparent,
     0 0 0 transparent;
-  border: 1.4px solid var(--label-color-dark-primary);
+  border: 1.4px solid var(--white);
   width: 2.68rem;
   height: 2.68rem;
 }
@@ -391,7 +391,7 @@
   cursor: pointer;
   border: 0.5px solid var(--color-lightgray-200);
   padding: 0;
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   position: absolute;
   top: 23.26rem;
   left: 16.96rem;
@@ -408,7 +408,7 @@
   line-height: 0.94rem;
   font-weight: 600;
   font-family: var(--font-inter);
-  color: var(--label-color-dark-primary);
+  color: var(--white);
   text-align: center;
 }
 .buttonbutton1 {
@@ -428,14 +428,14 @@
   top: 8.26rem;
   left: 18.79rem;
   border-radius: 11.43px;
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   border: 2.1px solid var(--color-whitesmoke-200);
   box-sizing: border-box;
   width: 29.82rem;
   height: 27.81rem;
   overflow: hidden;
   font-size: var(--font-size-3xs);
-  font-family: var(--other-other-regular);
+  font-family: var(--body-large-semibold);
 }
 .spanavatarIcon1 {
   position: relative;
@@ -571,7 +571,7 @@
   cursor: pointer;
   border: 0.5px solid var(--color-lightgray-200);
   padding: 0;
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   position: absolute;
   top: 0;
   border-radius: 7142.14px;
@@ -626,6 +626,7 @@
   align-items: center;
   gap: 1.34rem;
 }
+.divcard,
 .divflexWrapper {
   position: absolute;
   top: -0.42rem;
@@ -633,16 +634,11 @@
   width: 13.91rem;
   height: 32.9rem;
 }
-.divcard,
-.headerheaderParent,
-.setting {
-  background-color: var(--label-color-dark-primary);
-}
 .divcard {
-  position: absolute;
   top: 8.26rem;
   left: 3.13rem;
   border-radius: 11.43px;
+  background-color: var(--white);
   border: 2.1px solid var(--color-whitesmoke-200);
   box-sizing: border-box;
   width: 13.08rem;
@@ -653,6 +649,7 @@
 }
 .headerheaderParent,
 .setting {
+  background-color: var(--white);
   height: 40.18rem;
   overflow: hidden;
 }

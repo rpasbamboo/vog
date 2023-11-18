@@ -101,11 +101,11 @@
 }
 .loginNow {
   position: relative;
-  font-size: var(--body-text-body-medium-size);
+  font-size: var(--body-large-semibold-size);
   line-height: 100%;
   font-weight: 600;
-  font-family: var(--other-other-regular);
-  color: var(--label-color-dark-primary);
+  font-family: var(--body-large-semibold);
+  color: var(--white);
   text-align: left;
 }
 .buttons {
@@ -176,7 +176,7 @@
   align-self: stretch;
   justify-content: flex-start;
   gap: var(--gap-5xl);
-  color: var(--primary1);
+  color: var(--azure-700);
 }
 .signUp {
   position: absolute;
@@ -187,9 +187,9 @@
   justify-content: center;
   gap: var(--gap-13xl);
   text-align: left;
-  font-size: var(--body-text-body-medium-size);
+  font-size: var(--body-large-semibold-size);
   color: var(--text-secondary);
-  font-family: var(--other-other-regular);
+  font-family: var(--body-large-semibold);
 }
 .signUpWrapper {
   position: relative;
@@ -198,7 +198,7 @@
 }
 .bgLogin,
 .signup {
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   height: 56.25rem;
   overflow: hidden;
   display: flex;
@@ -219,5 +219,5 @@
   justify-content: flex-start;
   text-align: left;
   font-size: 3.5rem;
-  font-family: var(--other-other-regular);
+  font-family: var(--body-large-semibold);
 }

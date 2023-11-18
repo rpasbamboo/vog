@@ -82,47 +82,21 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.context {
+.inputText {
+  background-color: transparent;
+  align-self: stretch;
   flex: 1;
-  position: relative;
-  line-height: 100%;
-}
-.iconeye {
-  position: relative;
-  width: 1.13rem;
-  height: 1.13rem;
-  display: none;
-}
-.iconeyeWrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
 }
 .frameGroup,
-.inputText,
 .inputTextWrapper {
   align-self: stretch;
   display: flex;
-  justify-content: flex-start;
-}
-.inputText {
-  flex: 1;
-  border-radius: var(--br-7xs);
-  border: 2.3px solid var(--primary-weak);
-  flex-direction: row;
-  align-items: center;
-  padding: var(--padding-4xs) var(--padding-xs);
-  gap: 0.23rem;
-}
-.frameGroup,
-.inputTextWrapper {
   align-items: flex-start;
+  justify-content: flex-start;
 }
 .inputTextWrapper {
   height: 2.25rem;
   flex-direction: row;
-  font-size: var(--font-size-2xs-5);
 }
 .frameGroup {
   flex-direction: column;
@@ -135,36 +109,16 @@
   color: var(--color-red-200);
   text-align: right;
 }
-.iconeye1 {
-  position: relative;
-  width: 1.13rem;
-  height: 1.13rem;
-}
-.frameParent,
-.inputText1,
-.inputTextContainer {
+.frameChild {
+  background-color: transparent;
   align-self: stretch;
-  display: flex;
-  justify-content: flex-start;
-}
-.inputText1 {
-  border-radius: var(--br-7xs);
-  border: 0.8px solid var(--text-tertiary);
-  flex-direction: row;
-  align-items: center;
-  padding: var(--padding-4xs) var(--padding-xs);
-  gap: 0.23rem;
-}
-.frameParent,
-.inputTextContainer {
-  flex-direction: column;
-  align-items: flex-start;
-}
-.inputTextContainer {
-  font-size: var(--font-size-2xs-5);
-  color: var(--text-tertiary);
 }
 .frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-lg);
 }
 .loginNow {
@@ -172,8 +126,8 @@
   font-size: var(--other-other-regular-size);
   line-height: 100%;
   font-weight: 600;
-  font-family: var(--other-other-regular);
-  color: var(--label-color-dark-primary);
+  font-family: var(--body-large-semibold);
+  color: var(--white);
   text-align: left;
 }
 .buttons {
@@ -220,7 +174,7 @@
 .bgLogin,
 .logIn,
 .login {
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   display: flex;
   align-items: center;
 }
@@ -257,5 +211,5 @@
   text-align: left;
   font-size: 2.63rem;
   color: var(--text-secondary);
-  font-family: var(--other-other-regular);
+  font-family: var(--body-large-semibold);
 }

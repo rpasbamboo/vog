@@ -83,7 +83,7 @@
   color: var(--color-red-100);
   text-align: left;
 }
-.arrowscounterclockwiseParent {
+.rocketlaunchParent {
   cursor: pointer;
   border: 0;
   padding: 11.428622245788574px 22.85724449157715px;
@@ -208,8 +208,9 @@
   right: 19.3px;
   width: 144.3px;
   height: 128.3px;
+  cursor: pointer;
 }
-.navbarRetargetting {
+.navbarComingSoon {
   background-color: var(--white);
   border-right: 2.1px solid var(--color-gainsboro-300);
   box-sizing: border-box;
@@ -223,6 +224,6 @@
   color: var(--color-gray-200);
   font-family: var(--font-lexend);
 }
-.navbarRetargetting.animate {
+.navbarComingSoon.animate {
   animation: 0.25s ease 0s 1 normal forwards slide-in-left;
 }

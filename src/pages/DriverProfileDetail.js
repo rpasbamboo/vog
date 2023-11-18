@@ -1,18 +1,21 @@
 import { useState, useCallback } from "react";
-import { Input } from "@chakra-ui/react";
-import SettingNavbar from "../components/SettingNavbar";
+import "antd/dist/antd.min.css";
+import { Input } from "antd";
+import { SearchOutlined } from "@ant-design/icons";
+import NavbarDriverProfileDetail from "../components/NavbarDriverProfileDetail";
 import PortalDrawer from "../components/PortalDrawer";
 import styles from "./DriverProfileDetail.module.css";
 
 const DriverProfileDetail = () => {
-  const [isNavbarOpen, setNavbarOpen] = useState(false);
+  const [isNavbarDriverProfileDetailOpen, setNavbarDriverProfileDetailOpen] =
+    useState(false);
 
-  const openNavbar = useCallback(() => {
-    setNavbarOpen(true);
+  const openNavbarDriverProfileDetail = useCallback(() => {
+    setNavbarDriverProfileDetailOpen(true);
   }, []);
 
-  const closeNavbar = useCallback(() => {
-    setNavbarOpen(false);
+  const closeNavbarDriverProfileDetail = useCallback(() => {
+    setNavbarDriverProfileDetailOpen(false);
   }, []);
 
   return (
@@ -188,8 +191,10 @@ const DriverProfileDetail = () => {
             />
             <Input
               className={styles.searchbar2Fig4}
-              width="460.3px"
-              w="460.3px"
+              placeholder="Search"
+              style={{ width: "460.3px" }}
+              bordered={true}
+              prefix={<SearchOutlined />}
             />
             <div className={styles.avatar1}>
               <img
@@ -557,7 +562,10 @@ const DriverProfileDetail = () => {
           </div>
         </div>
         <div className={styles.divheaderAction}>
-          <button className={styles.divheaderActionItem} onClick={openNavbar}>
+          <button
+            className={styles.divheaderActionItem}
+            onClick={openNavbarDriverProfileDetail}
+          >
             <img className={styles.divIcon} alt="" src="/div.svg" />
           </button>
           <img
@@ -567,13 +575,13 @@ const DriverProfileDetail = () => {
           />
         </div>
       </div>
-      {isNavbarOpen && (
+      {isNavbarDriverProfileDetailOpen && (
         <PortalDrawer
           overlayColor="rgba(113, 113, 113, 0.3)"
           placement="Left"
-          onOutsideClick={closeNavbar}
+          onOutsideClick={closeNavbarDriverProfileDetail}
         >
-          <SettingNavbar onClose={closeNavbar} />
+          <NavbarDriverProfileDetail onClose={closeNavbarDriverProfileDetail} />
         </PortalDrawer>
       )}
     </>

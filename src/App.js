@@ -6,18 +6,18 @@ import {
   useLocation,
 } from "react-router-dom";
 import Signup from "./pages/Signup";
+import Signup1 from "./pages/Signup1";
+import LogIn from "./pages/LogIn";
 import GettingStarted04 from "./pages/GettingStarted04";
 import DriverProfileDetail from "./pages/DriverProfileDetail";
-import ComingSoon from "./pages/ComingSoon";
 import BillingInvoice from "./pages/BillingInvoice";
 import Billing from "./pages/Billing";
 import Retargetting from "./pages/Retargetting";
 import Setting from "./pages/Setting";
+import ComingSoon from "./pages/ComingSoon";
 import Attribution from "./pages/Attribution";
-import Analytics from "./pages/Analytics";
-import LogIn from "./pages/LogIn";
 import AboutCampaign from "./pages/AboutCampaign";
-import Signup1 from "./pages/Signup1";
+import Analytics from "./pages/Analytics";
 
 function App() {
   const action = useNavigationType();
@@ -39,15 +39,19 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/signup":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/log-in1":
+        title = "";
+        metaDescription = "";
+        break;
       case "/getting-started-04":
         title = "";
         metaDescription = "";
         break;
       case "/driver-profile-detail":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/coming-soon":
         title = "";
         metaDescription = "";
         break;
@@ -67,15 +71,11 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/coming-soon":
+        title = "";
+        metaDescription = "";
+        break;
       case "/attribution":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/analytics":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/log-in1":
         title = "";
         metaDescription = "";
         break;
@@ -83,7 +83,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/signup":
+      case "/analytics":
         title = "";
         metaDescription = "";
         break;
@@ -106,18 +106,18 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Signup />} />
+      <Route path="/signup" element={<Signup1 />} />
+      <Route path="/log-in1" element={<LogIn />} />
       <Route path="/getting-started-04" element={<GettingStarted04 />} />
       <Route path="/driver-profile-detail" element={<DriverProfileDetail />} />
-      <Route path="/coming-soon" element={<ComingSoon />} />
       <Route path="/billing-invoice" element={<BillingInvoice />} />
       <Route path="/billing" element={<Billing />} />
       <Route path="/retargetting" element={<Retargetting />} />
       <Route path="/setting" element={<Setting />} />
+      <Route path="/coming-soon" element={<ComingSoon />} />
       <Route path="/attribution" element={<Attribution />} />
-      <Route path="/analytics" element={<Analytics />} />
-      <Route path="/log-in1" element={<LogIn />} />
       <Route path="/about-campaign" element={<AboutCampaign />} />
-      <Route path="/signup" element={<Signup1 />} />
+      <Route path="/analytics" element={<Analytics />} />
     </Routes>
   );
 }

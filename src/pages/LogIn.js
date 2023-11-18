@@ -1,4 +1,6 @@
 import { useCallback } from "react";
+import "antd/dist/antd.min.css";
+import { Input } from "antd";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./LogIn.module.css";
 
@@ -44,16 +46,12 @@ const LogIn = () => {
                 <div className={styles.email}>Email</div>
               </div>
               <div className={styles.inputTextWrapper}>
-                <div className={styles.inputText}>
-                  <div className={styles.context}>balamia@gmail.com</div>
-                  <div className={styles.iconeyeWrapper}>
-                    <img
-                      className={styles.iconeye}
-                      alt=""
-                      src="/iconeye3.svg"
-                    />
-                  </div>
-                </div>
+                <Input
+                  className={styles.inputText}
+                  placeholder="balamia@gmail.com"
+                  type="email"
+                  bordered={true}
+                />
               </div>
             </div>
             <div className={styles.frameGroup}>
@@ -61,18 +59,11 @@ const LogIn = () => {
                 <div className={styles.email}>Password</div>
                 <div className={styles.forgot}>Forgot？</div>
               </div>
-              <div className={styles.inputTextContainer}>
-                <div className={styles.inputText1}>
-                  <div className={styles.context}>Enter your password</div>
-                  <div className={styles.iconeyeWrapper}>
-                    <img
-                      className={styles.iconeye1}
-                      alt=""
-                      src="/iconeye3.svg"
-                    />
-                  </div>
-                </div>
-              </div>
+              <Input.Password
+                className={styles.frameChild}
+                placeholder="Enter your password"
+                bordered={true}
+              />
             </div>
           </div>
           <div className={styles.buttonsParent}>

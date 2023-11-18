@@ -71,7 +71,6 @@
   justify-content: flex-start;
 }
 .frameChild {
-  border: 0;
   background-color: transparent;
   align-self: stretch;
 }
@@ -91,6 +90,11 @@
   text-align: right;
   display: none;
 }
+.frameItem {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
 .frameParent {
   align-self: stretch;
   display: flex;
@@ -104,8 +108,8 @@
   font-size: 0.77rem;
   line-height: 100%;
   font-weight: 600;
-  font-family: var(--other-other-regular);
-  color: var(--label-color-dark-primary);
+  font-family: var(--body-large-semibold);
+  color: var(--white);
   text-align: left;
 }
 .buttons {
@@ -134,8 +138,8 @@
   font-size: 0.77rem;
   line-height: 100%;
   font-weight: 600;
-  font-family: var(--other-other-regular);
-  color: var(--primary1);
+  font-family: var(--body-large-semibold);
+  color: var(--azure-700);
   text-align: left;
 }
 .buttons1 {
@@ -194,7 +198,7 @@
   text-align: left;
   font-size: 0.77rem;
   color: var(--text-secondary);
-  font-family: var(--other-other-regular);
+  font-family: var(--body-large-semibold);
 }
 .signUpWrapper {
   position: relative;
@@ -215,7 +219,7 @@
 .bgLogin,
 .signup {
   position: relative;
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -237,5 +241,5 @@
   justify-content: flex-start;
   text-align: left;
   font-size: 2.68rem;
-  font-family: var(--other-other-regular);
+  font-family: var(--body-large-semibold);
 }

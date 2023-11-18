@@ -152,7 +152,7 @@
   position: absolute;
   top: 0;
   left: calc(50% - 425px);
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   border-bottom: 0.5px solid var(--color-gainsboro-200);
   box-sizing: border-box;
   width: 53.13rem;
@@ -1040,7 +1040,7 @@
   line-height: 0.94rem;
   font-weight: 600;
   font-family: var(--font-inter);
-  color: var(--label-color-dark-primary);
+  color: var(--white);
   text-align: center;
   display: flex;
   align-items: center;
@@ -1091,7 +1091,7 @@
   top: 8.08rem;
   left: calc(50% - 325px);
   border-radius: 5.71px;
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   border: 2.1px solid var(--color-whitesmoke-200);
   box-sizing: border-box;
   width: 40.58rem;
@@ -1105,7 +1105,7 @@
   font-size: 1.07rem;
   line-height: 0.94rem;
   display: flex;
-  font-family: var(--other-other-regular);
+  font-family: var(--body-large-semibold);
   color: var(--color-darkslategray-300);
   align-items: center;
   width: 6.83rem;
@@ -1113,7 +1113,7 @@
 }
 .billingInvoice,
 .headerheaderParent {
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   height: 54.6rem;
   overflow: hidden;
 }

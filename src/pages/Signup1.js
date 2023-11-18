@@ -1,4 +1,6 @@
 import { useState, useCallback } from "react";
+import "antd/dist/antd.min.css";
+import { Input } from "antd";
 import { TextField, InputAdornment, Icon, IconButton } from "@mui/material";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./Signup1.module.css";
@@ -12,6 +14,10 @@ const Signup1 = () => {
 
   const onButtonsClick = useCallback(() => {
     navigate("/getting-started-04");
+  }, [navigate]);
+
+  const onLogInClick = useCallback(() => {
+    navigate("/log-in1");
   }, [navigate]);
 
   return (
@@ -38,11 +44,11 @@ const Signup1 = () => {
                 <div className={styles.emailWrapper}>
                   <div className={styles.email}>Email</div>
                 </div>
-                <TextField
+                <Input
                   className={styles.frameChild}
-                  color="primary"
                   placeholder="balamia@gmail.com"
-                  variant="outlined"
+                  type="email"
+                  bordered={true}
                 />
               </div>
               <div className={styles.frameGroup}>
@@ -51,7 +57,7 @@ const Signup1 = () => {
                   <div className={styles.forgot}>Forgot？</div>
                 </div>
                 <TextField
-                  className={styles.frameChild}
+                  className={styles.frameItem}
                   color="primary"
                   placeholder="Enter your password"
                   required={true}
@@ -90,7 +96,11 @@ const Signup1 = () => {
                 <div className={styles.alreadyHaveAn}>
                   Already have an account ?
                 </div>
-                <Link className={styles.logIn} to="/log-in">
+                <Link
+                  className={styles.logIn}
+                  to="/log-in"
+                  onClick={onLogInClick}
+                >
                   Log in
                 </Link>
               </div>

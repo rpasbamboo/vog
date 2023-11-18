@@ -161,7 +161,7 @@
   position: absolute;
   top: 0;
   left: calc(50% - 425px);
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   border-bottom: 0.5px solid var(--color-gainsboro-200);
   box-sizing: border-box;
   width: 53.13rem;
@@ -173,7 +173,7 @@
   left: calc(50% - 265px);
   font-size: 1.34rem;
   line-height: 0.94rem;
-  font-family: var(--other-other-regular);
+  font-family: var(--body-large-semibold);
   color: var(--color-darkslategray-300);
 }
 .imageVectorIcon {
@@ -186,7 +186,7 @@
 }
 .aboutCampaign,
 .headerheaderParent {
-  background-color: var(--label-color-dark-primary);
+  background-color: var(--white);
   height: 40.18rem;
   overflow: hidden;
 }
