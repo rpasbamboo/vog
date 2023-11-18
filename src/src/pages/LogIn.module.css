@@ -1,0 +1,215 @@
+.welcome {
+  margin: 0;
+}
+.welcomeStartYourContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.welcomeStartYourContainer {
+  position: relative;
+  line-height: 120%;
+  display: flex;
+  font-weight: 300;
+  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0.44));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+  width: 22.46rem;
+}
+.bg {
+  background: linear-gradient(
+    180deg,
+    rgba(218, 34, 34, 0.88),
+    rgba(218, 89, 34, 0.85)
+  );
+  width: 26.86rem;
+  height: 42.19rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0.19rem 1.64rem;
+  box-sizing: border-box;
+}
+.asset84xIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logo {
+  position: relative;
+  width: 13.5rem;
+  height: 2.68rem;
+}
+.loginToYour,
+.welcomeBack {
+  position: relative;
+  line-height: 100%;
+}
+.loginToYour {
+  font-size: 1.31rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.welcomeBackParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.email {
+  flex: 1;
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+.emailWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputText {
+  background-color: transparent;
+  align-self: stretch;
+  flex: 1;
+}
+.frameGroup,
+.inputTextWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputTextWrapper {
+  height: 2.25rem;
+  flex-direction: row;
+}
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.forgot {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: var(--color-red-200);
+  text-align: right;
+}
+.frameChild {
+  background-color: transparent;
+  align-self: stretch;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.loginNow {
+  position: relative;
+  font-size: var(--other-other-regular-size);
+  line-height: 100%;
+  font-weight: 600;
+  font-family: var(--body-large-semibold);
+  color: var(--white);
+  text-align: left;
+}
+.buttons {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs);
+  background-color: var(--color-red-200);
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  height: 2.44rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.dontHaveAn,
+.signUp {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+.signUp {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--color-red-200);
+}
+.dontHaveAnAccountParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.38rem;
+}
+.buttonsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  color: var(--text-tertiary);
+}
+.bgLogin,
+.logIn,
+.login {
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+}
+.login {
+  border-radius: var(--br-7xs);
+  width: 26.02rem;
+  height: 27.56rem;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.25rem 3.38rem;
+  box-sizing: border-box;
+  gap: 1.88rem;
+}
+.bgLogin,
+.logIn {
+  height: 42.19rem;
+  overflow: hidden;
+}
+.bgLogin {
+  width: 40.64rem;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 3.7rem 7.31rem;
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  font-size: var(--other-other-regular-size);
+}
+.logIn {
+  position: relative;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 2.63rem;
+  color: var(--text-secondary);
+  font-family: var(--body-large-semibold);
+}

@@ -1,0 +1,247 @@
+.divIcon {
+  position: absolute;
+  top: 0.36rem;
+  left: 0.36rem;
+  width: 1.07rem;
+  height: 1.07rem;
+}
+.divheaderActionItem,
+.divheaderActionItemIcon {
+  position: absolute;
+  top: 0;
+  border-radius: 7142.14px;
+  width: 1.79rem;
+  height: 1.79rem;
+}
+.divheaderActionItem {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-400);
+  left: 0.18rem;
+}
+.divheaderActionItemIcon {
+  left: 2.32rem;
+  display: none;
+}
+.divheaderAction {
+  position: absolute;
+  top: 0.56rem;
+  left: 0.71rem;
+  background-color: var(--color-gray-400);
+  width: 4.29rem;
+  height: 1.79rem;
+}
+.divheaderWrapper,
+.svgIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.divheaderWrapper {
+  background-color: var(--color-gray-400);
+  width: 43.43rem;
+  height: 2.9rem;
+}
+.svgIcon {
+  width: 1.07rem;
+  height: 1.07rem;
+  overflow: hidden;
+}
+.spanbadgeDot {
+  position: absolute;
+  top: -0.04rem;
+  left: 0.63rem;
+  border-radius: 7142.14px;
+  background-color: var(--color-crimson-100);
+  width: 0.36rem;
+  height: 0.36rem;
+}
+.spanbadgeWrapper {
+  position: absolute;
+  top: 0.36rem;
+  left: 0.36rem;
+  width: 1.07rem;
+  height: 1.07rem;
+}
+.div,
+.spanbadgeWrapper {
+  background-color: var(--color-gray-400);
+}
+.div,
+.divIcon1,
+.spanavatarIcon {
+  position: relative;
+  border-radius: 7142.14px;
+  width: 1.79rem;
+  height: 1.79rem;
+}
+.spanavatarIcon {
+  position: absolute;
+  top: 0.44rem;
+  left: 0.36rem;
+  width: 1.48rem;
+  height: 1.48rem;
+}
+.admin {
+  position: absolute;
+  top: 0.03rem;
+  left: 0;
+  line-height: 0.71rem;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  width: 1.6rem;
+  height: 0.63rem;
+}
+.divtextXs {
+  top: 0;
+  background-color: var(--color-gray-400);
+  height: 0.71rem;
+}
+.abdurrahman,
+.divfontBold,
+.divtextXs {
+  position: absolute;
+  left: 0;
+  width: 4.22rem;
+}
+.abdurrahman {
+  top: 0.09rem;
+  line-height: 0.94rem;
+  display: flex;
+  align-items: center;
+  height: 0.74rem;
+}
+.divfontBold {
+  top: 0.71rem;
+  height: 0.94rem;
+  font-size: var(--font-size-3xs);
+}
+.divfontBold,
+.divheaderActionItem2,
+.divhidden {
+  background-color: var(--color-gray-400);
+}
+.divhidden {
+  position: absolute;
+  top: 0.36rem;
+  left: 2.14rem;
+  width: 4.22rem;
+  height: 1.65rem;
+}
+.divheaderActionItem2 {
+  position: relative;
+  border-radius: 7142.14px;
+  width: 6.73rem;
+  height: 2.37rem;
+}
+.divheaderAction1 {
+  position: absolute;
+  top: calc(50% - 18.55px);
+  right: 1.8rem;
+  background-color: var(--color-gray-400);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0.18rem;
+  gap: 0.36rem;
+}
+.headerheader {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 425px);
+  background-color: var(--white);
+  border-bottom: 0.5px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 53.13rem;
+  height: 2.86rem;
+  color: var(--color-slategray);
+  font-family: var(--font-inter);
+}
+.thisFeatureIn {
+  position: absolute;
+  top: 5.98rem;
+  left: calc(50% - 265px);
+  font-size: 1.34rem;
+  line-height: 0.94rem;
+}
+.imageVectorIcon {
+  position: absolute;
+  top: 10.04rem;
+  left: calc(50% - 177.1px);
+  width: 22.19rem;
+  height: 14.15rem;
+  overflow: hidden;
+}
+.getExclusiveEarly,
+.requestAccess {
+  position: absolute;
+  left: calc(50% - 248.15px);
+}
+.getExclusiveEarly {
+  top: 1.96rem;
+  line-height: 0.94rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 35.44rem;
+}
+.requestAccess {
+  text-decoration: none;
+  top: 4.96rem;
+  font-size: 0.71rem;
+  line-height: 0.89rem;
+  font-weight: 700;
+  color: var(--color-salmon-200);
+}
+.image7AdobeExpress1 {
+  position: absolute;
+  top: 0;
+  left: 0.71rem;
+  width: 7.28rem;
+  height: 7.28rem;
+  overflow: hidden;
+}
+.getExclusiveEarlyAccessToParent {
+  position: absolute;
+  top: 29.6rem;
+  left: calc(50% - 375.7px);
+  border-radius: 11.43px;
+  background-color: var(--white);
+  border: 2.1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 47.01rem;
+  height: 7.73rem;
+  overflow: hidden;
+  font-size: 0.89rem;
+}
+.cantWait {
+  position: absolute;
+  top: 26.88rem;
+  left: calc(50% - 375px);
+  font-size: 1.12rem;
+  line-height: 0.94rem;
+  font-weight: 600;
+}
+.headerheaderParent,
+.retargetting {
+  background-color: var(--white);
+  height: 40.18rem;
+  overflow: hidden;
+}
+.headerheaderParent {
+  position: absolute;
+  top: calc(50% - 321.45px);
+  left: 0;
+  width: 53.13rem;
+}
+.retargetting {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  font-size: 0.54rem;
+  color: var(--color-darkslategray-300);
+  font-family: var(--body-large-semibold);
+}
